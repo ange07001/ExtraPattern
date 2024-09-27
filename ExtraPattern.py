@@ -30,6 +30,6 @@ while True:
             print("\033[91m"+"Not a positive integer"+"\033[0m")
     except ValueError:
         print("\033[91m"+"Not a positive integer"+"\033[0m") 
-
+print("-"*30)
 print(f"The smallest k is: \033[92m{SmallestInt(Input)}\033[0m")
 print(f"The largest k is: \033[92m{largestInt(Input)}\033[0m")
